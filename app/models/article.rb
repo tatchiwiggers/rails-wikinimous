@@ -1,7 +1,7 @@
 class Article < ApplicationRecord
 
-validates ´:title, presence :true
-validates :content, presence :true
+validates :title, presence: :true
+validates :content, presence: :true
 
 #   def markdown_content
 #     Kramdown::Document.new(content).to_html.html_safe ## html_safe is a rails method

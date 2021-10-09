@@ -20,6 +20,7 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/solid';
 @import '@fortawesome/fontawesome-free/scss/regular';
 @import '@fortawesome/fontawesome-free/scss/v4-shims';
+@import "rails_bootstrap_forms";
 
  // Your CSS partials
 @import "components/index";
