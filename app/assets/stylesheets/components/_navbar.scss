@@ -1,0 +1,21 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #DDDDDD;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand {
+  width: 40px;
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: -14px;
+  &:hover {
+    color: black;
+  }
+}
